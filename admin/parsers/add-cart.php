@@ -19,6 +19,7 @@ $_SESSION['success_flash'] = $product['title'].' was added to your cart';
 
 //check to see if cart exists in the database
 
+
 if($cart_id != ''){
 $cartQ = $dbconn->query("SELECT * FROM cart WHERE id = '{$cart_id}'");
 $cart = mysqli_fetch_assoc($cartQ);
