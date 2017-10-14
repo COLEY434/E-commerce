@@ -1,0 +1,142 @@
+body {
+	padding-top: 50px;
+
+}
+
+.navbar ul li a:focus {
+    background-color: #1CA4B2 !important;
+}
+#headerWrapper {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 700px;
+	background-image: url('../images/gardesmall.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#logotext {
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	background-image: url('../images/background1.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px 100px;
+	top: 50%;
+	margin-top: -150px;
+
+
+}
+#fore-flower {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-image: url('../images/background2.jpeg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	top: 400px;
+
+
+
+}
+
+#partial-headerWrapper {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	height: 200px;
+	background-image: url('../images/gardesmall.jpeg');
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+#partial-logotext {
+	position: absolute;
+	width: 100px;
+	height: 200px;
+	background-image: url('../images/background1.jpeg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100px 100px;
+	top: 50%;
+	margin-top: -150px;
+
+
+}
+#partial-fore-flower {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	background-image: url('../images/background2.jpeg');
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	top: 400px;
+
+
+
+}
+
+footer {
+	margin-top: 30px;
+	background-color: #283747;
+	color: white;
+}
+
+.navbar-fixed-top {
+	background-color: #284447;
+	border: none;
+}
+
+
+.navbar-nav > li:hover {
+	background-color: #1CA4B2;
+}
+
+.dropdown-menu >li > a:hover {
+	background-color: red;
+}
+
+.table-auto {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#add_product_button {
+	margin-top: -35px;
+}
+.saved_image {
+	text-align: center;
+}
+.saved_image img {
+	width: auto;
+	height: 150px;
+}
+
+#login-form {
+	width: 50%;
+	height: 60%;
+	background-color: #fff;
+	margin: 5% auto;;
+	border-radius: 17px;
+	box-shadow: 7px 7px 15px rgba(0,0,0,0.6);
+	border: 2px solid #000;
+	padding: 15px;
+
+}
+
+.totals-tables-header th{
+	text-align: center;
+}
+#cart-widget td, #recent-widget td{
+	font-size: 12px;
+}
